@@ -21,13 +21,11 @@ export default function Home() {
 
   return (
     <div className={classes.page}>
-      <div>
-        <h1>Current Student at UCI</h1>
-        <h2>Class of 2022</h2>
-        <h2>Computer Science B.S.</h2>
-        <h2>Relevant Coursework</h2>
-        <Courses />
-      </div>
+      <h1>Current Student at UCI</h1>
+      <h2>Class of 2022</h2>
+      <h2>Computer Science B.S.</h2>
+      <h2>Relevant Coursework</h2>
+      <Courses />
       <Internship />
     </div>
   );

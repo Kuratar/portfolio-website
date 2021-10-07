@@ -7,6 +7,7 @@ import Home from "./components/Home";
 const useStyles = makeStyles({
   page: {
     backgroundColor: "#242c38",
+    paddingTop: 64
   },
 });
 

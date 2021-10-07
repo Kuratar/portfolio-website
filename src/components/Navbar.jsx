@@ -15,14 +15,13 @@ const styles = {
     alignItems: "center",
     justifyContent: "left",
     justifyItems: "center",
-    position: "sticky",
   },
 };
 
 export default function Navbar() {
   return (
-    <Box>
-      <AppBar position="static">
+    <Box sx={{position: "sticky"}}>
+      <AppBar >
         <Toolbar sx={styles.navbar}>
           <strong style={{ marginRight: 50 }}>Eric Nguyen</strong>
           <NavLink to="/" exact className="nav-link" activeClassName="nav-link-active">Home</NavLink>
