@@ -24,13 +24,12 @@ export default function About() {
   return (
     <div className={classes.page}>
       <h1>About Me</h1>
-      <div className={classes.introduction}>
-        <p>
-          Hello there! My name is Eric Nguyen Hello there! My name is Eric
-          Nguyen Hello there! My name is Eric Nguyen Hello there! My name is
-          Eric Nguyen
-        </p>
-      </div>
+      <p className={classes.introduction}>
+        Hello there! My name is Eric Nguyen Hello there! My name is Eric Nguyen
+        Hello there! My name is Eric Nguyen Hello there! My name is Eric Nguyen
+        Hello there! My name is Eric Nguyen Hello there! My name is Eric Nguyen
+        Hello there! My name is Eric Nguyen Hello there! My name is Eric Nguyen
+      </p>
     </div>
   );
 }
