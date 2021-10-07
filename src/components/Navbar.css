@@ -1,0 +1,18 @@
+/* file has to exist to make hover attribute work along with not refreshing the page
+Link and NavLink from react router dom seems to be only "simple" way to make non-refreshing link */
+
+.nav-link {
+  color: aqua;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link-active {
+  color: aqua;
+  text-decoration: underline;
+  font-weight: bolder;
+}

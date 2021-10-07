@@ -1,10 +1,26 @@
 import Navbar from "./components/Navbar";
+import { makeStyles } from "@mui/styles";
+import { Route, Switch} from "react-router-dom";
+import About from "./components/About";
+import Home from "./components/Home";
+
+const useStyles = makeStyles({
+  page: {
+    backgroundColor: "#242c38",
+  },
+});
 
 function App() {
+  const classes = useStyles();
+
   return (
-    <main>
+    <div className={classes.page}>
       <Navbar />
-    </main>
+      <Switch>
+        <Route path="/about" component={About} />
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </div>
   );
 }
 

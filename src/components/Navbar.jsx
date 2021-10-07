@@ -1,22 +1,34 @@
 import React from "react";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { makeStyles } from "@mui/styles";
+import {NavLink} from "react-router-dom";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import './Navbar.css';
 
-const useStyles = makeStyles({
+const styles = {
   navbar: {
-    backgroundColor: "darkblue",
-  },
-  options: {
+    backgroundColor: "#242c38",
     color: "white",
+    textTransform: "none",
+    textAlign: "left",
+    alignContent: "center",
+    alignItems: "center",
+    justifyContent: "left",
+    justifyItems: "center",
+    position: "sticky",
   },
-});
+};
 
 export default function Navbar() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.navbar}>
-      <strong className={classes.options}>Eric Nguyen</strong>
-    </div>
+    <Box>
+      <AppBar position="static">
+        <Toolbar sx={styles.navbar}>
+          <strong style={{ marginRight: 50 }}>Eric Nguyen</strong>
+          <NavLink to="/" exact className="nav-link" activeClassName="nav-link-active">Home</NavLink>
+          <NavLink to="/about" className="nav-link" activeClassName="nav-link-active">About</NavLink>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 }
