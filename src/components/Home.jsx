@@ -22,6 +22,11 @@ export default function Home() {
   return (
     <div className={classes.page}>
       <h1>Current Student at UCI</h1>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/93/UCI_Donald_Bren_Hall.jpg"
+        alt="uci building donald bren school of information and computer sciences"
+        style={{ backgroundColor: "white", width: "50%", height: "50%"}}
+      ></img>
       <h2>Class of 2022</h2>
       <h2>Computer Science B.S.</h2>
       <h2>Relevant Coursework</h2>

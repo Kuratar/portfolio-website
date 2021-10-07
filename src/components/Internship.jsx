@@ -16,14 +16,14 @@ export default function Internship() {
       <a href="https://www.ardentlabs.io/" target="_blank">
         <img
           src="https://static.wixstatic.com/media/132a22_c124961f91294369b46aeaebf0b2182b~mv2.png/v1/fill/w_300,h_60,al_c,q_85/ardent-labs-logo.webp"
-          alt="ardent labs logo"
+          alt="ardent labs logo and link"
         ></img>
       </a>
       <div style={{ marginTop: 25 }}>
         <a href="https://www.ardentacademy.com/" target="_blank">
           <img
             src="https://www.ardentacademy.com/images/Ardent-logo-50high-hor.png"
-            alt="ardent academy logo"
+            alt="ardent academy logo and link"
             style={{ backgroundColor: "white" }}
           ></img>
         </a>
