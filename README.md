@@ -21,7 +21,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 I don't really have any personal projects, just school projects that were assignments and I felt they are not worthy of showing although they possibly are. Thus,
 I feel I get half points of "Embraces spirit of the assignment" since although it was fun making it, it's also supposed to be something serious to show off
-employers such as having a past projects and skills/technologies tab on the navigation bar.
+employers such as having a past projects and skills/technologies tab on the navigation bar. I definitely believe however, I will for sure use this assignment
+as a starting point to develop a more complete portfolio in the future when I gain more skills and develop more relevant projects.
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
