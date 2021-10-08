@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { makeStyles } from "@mui/styles";
-import { Route, Switch} from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Home from "./components/Home";
 import "./App.css";
@@ -21,6 +21,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/about" component={About} />
+        <Route path="/portfolio-website" exact component={Home} />
         <Route path="/" exact component={Home} />
       </Switch>
     </div>
