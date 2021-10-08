@@ -15,6 +15,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "left",
     justifyItems: "center",
+    fontSize: 20,
   },
 };
 
