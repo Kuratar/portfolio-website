@@ -60,20 +60,20 @@ as a starting point to develop a more complete portfolio in the future when I ga
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-    https://mui.com/api/app-bar/
-    https://reactrouter.com/web/guides/quick-start
-    https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links
-    https://stackoverflow.com/questions/40769551/how-to-use-google-fonts-in-react-js
-    https://support.google.com/youtube/answer/171780?hl=en
+    https://mui.com/api/app-bar/ <br />
+    https://reactrouter.com/web/guides/quick-start <br />
+    https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links <br />
+    https://stackoverflow.com/questions/40769551/how-to-use-google-fonts-in-react-js <br />
+    https://support.google.com/youtube/answer/171780?hl=en <br />
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-    Andrew Ton helped me setup a react application and suggested I use a bit of MUI for styling the website.
+    Andrew Ton helped me setup a react application and suggested I use a bit of MUI for styling the website.<br />
     He also helped me setup this project with Github Pages.
 
 6. Is there anything special we need to know in order to run your code?
 
-    You can access the website using Github Pages with this link: https://Kuratar.github.io/portfolio-website
+    You can access the website using Github Pages with this link: https://Kuratar.github.io/portfolio-website <br />
     If you want to run this project locally, download this project, cd into it using some type of terminal, 
     and simply type `npm start`
 
