@@ -10,44 +10,71 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
+9/10
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 1/1 Basic CSS styling
 - 1/1 Advanced feature
 - 2/2 Responsive layout
 - 1/1 Passes validation checks
-- 2/2 Embraces spirit of the assignment
+- 1/2 Embraces spirit of the assignment
+
+I don't really have any personal projects, just school projects that were assignments and I felt they are not worthy of showing although they possibly are. Thus,
+I feel I get half points of "Embraces spirit of the assignment" since although it was fun making it, it's also supposed to be something serious to show off
+employers such as having a past projects and skills/technologies tab on the navigation bar.
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 
+    1. At least one image, with descriptive alt attribute(s)
 
+    2. Appropriate headings and paragraph text
+
+    3. Links to external page(s)
+
+    4. Multiple pages, with appropriate navigation between them
 
 (b) CSS features
 
+    1. Modifying padding and margins to indent content and enhance readability
 
+    2. Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section.
+
+    3. Leveraging Bootstrap CSS helpers such as image shapes and table layouts to display content in a more interesting manner
+
+    4. Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
 
 (c) Advanced features
 
+    1. Creating a table with multiple columns and rows which can be read via a screen reader
 
+    2. Creating a more complex page layout, such as including a sidebar or navigation bar
+
+    3. Leveraging nested selectors to specify format
 
 3. How long, in hours, did it take you to complete this assignment?
 
-
+    16 hours
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-
+    https://mui.com/api/app-bar/
+    https://reactrouter.com/web/guides/quick-start
+    https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links
+    https://stackoverflow.com/questions/40769551/how-to-use-google-fonts-in-react-js
+    https://support.google.com/youtube/answer/171780?hl=en
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+    Andrew Ton helped me setup a react application and suggested I use a bit of MUI for styling the website.
+    He also helped me setup this project with Github Pages.
 
 6. Is there anything special we need to know in order to run your code?
 
-
+    You can access the website using Github Pages with this link: https://Kuratar.github.io/portfolio-website
+    If you want to run this project locally, download this project, cd into it using some type of terminal, 
+    and simply type `npm start`
 
 # Getting Started with Create React App
 
