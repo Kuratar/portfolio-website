@@ -67,8 +67,8 @@ export default function About() {
       </p>
       <h1>MOBA - League of Legends</h1>
       <iframe
-        width="1008" // 16 * 63
-        height="563" // 9 * 63
+        width="560"
+        height="315"
         src="https://www.youtube.com/embed/KBFpsY79TPs"
         title="naayil aatrox montage"
         frameborder="0"
@@ -86,8 +86,8 @@ export default function About() {
       </p>
       <h1>That Time I Got Reincarnated as a Slime</h1>
       <iframe
-        width="1008" // 16 * 63
-        height="563" // 9 * 63
+        width="560"
+        height="315"
         src="https://www.youtube.com/embed/GhGTc6p8sg0"
         title="slime isekai anime opening"
         frameborder="0"
